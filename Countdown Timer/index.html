@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="set-target">
+            <h2>Set Target</h2>
+            <input type="date" id="date">
+            <input type="time" id="time">
+            <button onclick="setCountdown()">Set Countdown</button>
+        </div>
+        <div class="countdown">
+            <div id="days" class="time-unit"></div> days
+            <div id="hours" class="time-unit"></div> hrs
+            <div id="minutes" class="time-unit"></div> mins
+            <div id="seconds" class="time-unit"></div> secs
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
